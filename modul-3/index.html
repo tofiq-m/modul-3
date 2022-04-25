@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency converter</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="logo.png" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li>Bank</li>
+                <li>Business</li>
+                <li>Investments</li>
+                <li>INSURANCE</li>
+                <li>Mobile</li>
+                <li>Trips</li>
+                <li>ENTERTAINMENT</li>
+            </ul>
+        </nav>
+        <button class="btn-come-in">COME IN</button>
+    </header>
+
+    <h1>Online currency converter</h1>
+    <ul class="main-sec">
+                <div class="sections list1">
+                    <p>I have</p>
+                    <ul class="currencies curr1">
+                        <li id='rub' class="selected1"> RUB </li>
+                        <li id="usd"> USD </li>
+                        <li id="eur"> EUR </li>
+                        <li id="gbp"> GBP </li>
+                    </ul>
+                    <div class="input-container">
+                        <input class="input input1" value ="0" onclick="value =''" placeholder="0.00"/>
+                        <p>something</p>
+                    </div>
+                </div>
+
+                <div class="sections list2">
+                    <p>I want to buy</p>
+                        <ul class="currencies curr2">
+                            <li id='rub' class="selected2"> RUB </li>
+                            <li id="usd"> USD </li>
+                            <li id="eur"> EUR </li>
+                            <li id="gbp"> GBP </li>
+                        </ul>
+                        <div class="input-container">
+                            <input class="input input2" value ="0" onclick="value =''" placeholder="0.00"/>
+                            <p>something</p>
+                        </div>
+                </div>
+    </ul>
+    <script src="main.js"></script>
+</body>
+</html>
