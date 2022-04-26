@@ -17,11 +17,11 @@
                 <li>Investments</li>
                 <li>INSURANCE</li>
                 <li>Mobile</li>
-                <li>Trips</li>
+                <li>Travel</li>
                 <li>ENTERTAINMENT</li>
             </ul>
         </nav>
-        <button class="btn-come-in">COME IN</button>
+        <button class="btn-come-in">LOGIN</button>
     </header>
 
     <h1>Online currency converter</h1>
@@ -30,12 +30,12 @@
                     <p>I have</p>
                     <ul class="currencies curr1">
                         <li id='rub' class="selected1">RUB</li>
-                        <li id="usd">USD</li>
+                        <li id="usd" >USD</li>
                         <li id="eur">EUR</li>
                         <li id="gbp">GBP</li>
                     </ul>
                     <div class="input-container">
-                        <input class="input" type="text" id="input1" value ="0" onclick="value =''" placeholder="0.00"/>
+                        <input class="input" type="number" id="input1" maxlength="9" value ="0" onclick="value =''" placeholder="0.00"/>
                         <p id="from">Worth of currency</p>
                     </div>
                 </div>
@@ -43,13 +43,13 @@
                 <div class="sections list2">
                     <p>I want to buy</p>
                         <ul class="currencies curr2">
-                            <li id='rub' class="selected2">RUB</li>
-                            <li id="usd">USD</li>
+                            <li id='rub'>RUB</li>
+                            <li id="usd" class="selected2">USD</li>
                             <li id="eur">EUR</li>
                             <li id="gbp">GBP</li>
                         </ul>
                         <div class="input-container">
-                            <input class="input" type="text" id="input2" value ="0" onclick="value =''" placeholder="0.00"/>
+                            <input class="input" type="number" maxlength="9" id="input2" value ="0" onclick="value =''" placeholder="0.00"/>
                             <p id="to">Worth of currency</p>
                         </div>
                 </div>

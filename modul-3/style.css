@@ -44,6 +44,9 @@ header::before {
     display: inline-block;
     padding: 4px 20px;          /*replacement for 4px here? */
 }
+.nav_links li:first-child {
+    color: #000;
+}
 .nav_links li:hover {
     cursor: pointer;
     position: relative;
@@ -79,7 +82,7 @@ h1 {
 .sections {
     min-width: 270px;
     min-height: 190px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .list1 {
@@ -120,6 +123,11 @@ h1 {
     flex-direction: column;
     border: 1px solid var(--clr-primary);
 }
-
+/* Removing inpt type number icon */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
 /* MAIN SECTION STYLES ENDS */
 
